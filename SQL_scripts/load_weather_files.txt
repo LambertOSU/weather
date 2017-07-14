@@ -1,0 +1,13 @@
+LOAD DATA LOCAL INFILE '/home/adam/python/weathering/TMY_data/denver_CO_fmt.CSV'
+INTO TABLE denver_CO
+COLUMNS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+ALTER TABLE denver_CO ADD Date_time DATETIME NOT NULL DEFAULT '2000-01-01 14:30:00' AFTER Time_fmt;
+
+SET sql_mode='';
+
+UPDATE denver_CO SET Date_time = STR_TO_DATE(Time_fmt, '%Y-%m-%d-%H:%i:%s');
