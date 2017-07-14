@@ -31,6 +31,6 @@ There are two notebooks for cleaning the data and loading it into a MySQL databa
 
     Runs a one year simulation for a specified location.  Calculates basic Arrhenius model of PET degradation.  Plots and reports results.
 
-2. <b>basic_weathering_year.ipynb</b>
+2. <b>basic_weathering_month.ipynb</b>
 
      Runs a one month simulation for a specified location.  Calculates basic Arrhenius model of PET degradation.  Plots and reports results.
