@@ -23,7 +23,7 @@ There are two notebooks for cleaning the data and loading it into a MySQL databa
 
 2. <b>NREL_to_MySQL.ipynb</b>
 
-    Creates a table named after the CSV data file and loads the data CSV from the CSV file.  It requires the output from format_NREL_data.ipynb, not the raw NREL files.
+    Creates a table named after the CSV data file and loads the data from the CSV file.  It requires the output from format_NREL_data.ipynb, not the raw NREL files.
 
 #### Simulations
 
