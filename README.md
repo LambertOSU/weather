@@ -34,3 +34,7 @@ There are two notebooks for cleaning the data and loading it into a MySQL databa
 2. <b>basic_weathering_month.ipynb</b>
 
      Runs a one month simulation for a specified location.  Calculates basic Arrhenius model of PET degradation.  Plots and reports results.
+
+3. <b>weathering_with_geographic_analysis.ipynb</b>
+
+     Runs a batch simulation comparing all available data sets.
